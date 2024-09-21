@@ -1,5 +1,6 @@
 export const sizes = {
-  size100: "1rem",
+  size100: "37px",
+
   size200: "2rem",
   size300: "3rem",
   size400: "4rem",
