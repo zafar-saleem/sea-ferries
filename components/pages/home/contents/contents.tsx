@@ -29,6 +29,7 @@ export const Contents = () => {
           />
           <div>
             <h4>Blue Star Ferries</h4>
+            <div>
             <Image
               src={FullStar}
               width={22}
@@ -60,19 +61,22 @@ export const Contents = () => {
               alt="Full star"
             />
             by 1.324 customers
+            </div>
           </div>
         </StyledHeader>
         <StyledContents>
           <StyledFlex>
             <div>
-            <span>Operates in</span>
-              <Image
-                src={Greece}
-                width={25}
-                height={14}
-                alt="Full star"
-              />
-              Greece
+              <span>Operates in</span>
+              <div>
+                <Image
+                  src={Greece}
+                  width={25}
+                  height={14}
+                  alt="Full star"
+                />
+                Greece
+              </div>
             </div>
             <div>
               <span><b>Vessels number</b>: 8</span>
@@ -115,6 +119,7 @@ Its fleet consists of vessels of the latest technology and serves itineraries st
           />
           <div>
             <h4>Seajets</h4>
+            <div>
             <Image
               src={FullStar}
               width={22}
@@ -134,26 +139,22 @@ Its fleet consists of vessels of the latest technology and serves itineraries st
               alt="Full star"
             />
             by 2.467 customers
+            </div>
           </div>
         </StyledHeader>
         <StyledContents>
           <StyledFlex>
             <div>
-            <span>Operates in</span>
-              <Image
-                src={Greece}
-                width={25}
-                height={14}
-                alt="Full star"
-              />
-              Greece,
-              <Image
-                src={Italy}
-                width={25}
-                height={14}
-                alt="Italy flag"
-              />
-              Italy
+              <span>Operates in</span>
+              <div>
+                <Image
+                  src={Greece}
+                  width={25}
+                  height={14}
+                  alt="Full star"
+                />
+                Greece
+              </div>
             </div>
             <div>
               <span><b>Vessels number</b>: 8</span>
@@ -196,6 +197,7 @@ Seajets connect the main ports of Athens (Piraeus, Rafina and Lavrion),
           />
           <div>
             <h4>Anek-Superfast</h4>
+            <div>
             <Image
               src={FullStar}
               width={22}
@@ -215,19 +217,26 @@ Seajets connect the main ports of Athens (Piraeus, Rafina and Lavrion),
               alt="Full star"
             />
             by 667 customers
+            </div>
           </div>
         </StyledHeader>
         <StyledContents>
           <StyledFlex>
             <div>
-            <span>Operates in</span>
-              <Image
-                src={Greece}
-                width={25}
-                height={14}
-                alt="Full star"
-              />
-              Greece
+              <span>Operates in</span>
+                <div>
+                  <Image
+                    src={Greece}
+                    width={25}
+                    height={14}
+                    alt="Full star"
+                  /> Greece, <Image
+                  src={Italy}
+                  width={25}
+                  height={14}
+                  alt="Italy flag"
+                /> Italy
+              </div>
             </div>
             <div>
               <span><b>Vessels number</b>: 8</span>

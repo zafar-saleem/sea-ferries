@@ -12,6 +12,16 @@ export const StyledItem = styled.li`
   border: 1px solid #cccccc;
   border-radius: 20px;
   margin-bottom: 20px;
+  position: relative;
+  height: 350px;
+
+  @media screen and (max-width: ${props => props.theme.breakpoints.m}) {
+    height: 555px;
+  }
+
+  @media screen and (max-width: ${props => props.theme.breakpoints.s}) {
+    height: 590px;
+  }
 `;
 
 export const StyledHeader = styled.div`
@@ -29,6 +39,25 @@ export const StyledHeader = styled.div`
 
   div {
     text-align: right;
+
+    @media screen and (max-width: ${props => props.theme.breakpoints.m}) {
+      text-align: left;
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      gap: 5px;
+
+      @media screen and (max-width: ${props => props.theme.breakpoints.m}) {
+        justify-content: start;
+      }
+    }
+  }
+
+  @media screen and (max-width: ${props => props.theme.breakpoints.m}) {
+    display: block;
   }
 `;
 
@@ -52,7 +81,12 @@ export const StyledContents = styled.div`
       gap: 5px;
       margin-top: 15px;
       right: 10px;
+      position: absolute;
     }
+  }
+
+  @media screen and (max-width: ${props => props.theme.breakpoints.m}) {
+    display: block;
   }
 `;
 
@@ -61,6 +95,14 @@ export const StyledFlex = styled.div`
   flex-direction: column;
   gap: 15px;
   width: 235px;
+
+  div {
+    div {
+      display: flex;
+      gap: 5px;
+      align-items: center;
+    }
+  }
 
   span {
     display: block;
